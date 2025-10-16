@@ -58,9 +58,9 @@ Ambil semua user.
   "data": [
     {
       "id": "uuid",
-      "name": "Budi Santoso",
-      "username": "budisantoso",
-      "email": "budi@example.com",
+      "name": "Zildan Marginata",
+      "username": "zildanmarginata",
+      "email": "zildanmarginata@example.com",
       "address": "Jl. Merpati No.12, Jakarta",
       "createdAt": "2025-10-17T01:45:23.456Z",
       "updatedAt": "2025-10-17T01:45:23.456Z"
@@ -100,9 +100,9 @@ Tambah user baru.
 
 ```json
 {
-  "name": "Budi Santoso",
-  "username": "budisantoso",
-  "email": "budi@example.com",
+  "name": "Zildan Marginata",
+  "username": "zildanmarginata",
+  "email": "zildanmarginata@example.com",
   "address": "Jl. Merpati No.12, Jakarta"
 }
 ```
@@ -125,8 +125,8 @@ Update user.
 
 ```json
 {
-  "name": "Budi Santoso Jr.",
-  "email": "budi.jr@example.com"
+  "name": "Zildan Marginata",
+  "email": "zildanmarginata@example.com"
 }
 ```
 
@@ -162,9 +162,9 @@ Hapus user berdasarkan ID.
 [
   {
     "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "name": "Budi Santoso",
-    "username": "budisantoso",
-    "email": "budi@example.com",
+    "name": "Zildan Marginata",
+    "username": "zildanmarginata",
+    "email": "zildanmarginata@example.com",
     "address": "Jl. Merpati No.12, Jakarta",
     "createdAt": "2025-10-17T01:45:23.456Z",
     "updatedAt": "2025-10-17T01:45:23.456Z"
