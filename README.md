@@ -1,6 +1,6 @@
 # User CRUD REST API
 
-REST API sederhana untuk crud pengguna (User), menggunakan **Node.js**, **Express**, dan **JSON file** sebagai database sementara.
+REST API sederhana untuk crud pengguna (User), menggunakan **Node.js**, **Express**, dan **Array di memory** sebagai database sementara.
 API ini menggunakan **Clean Architecture**: Repository → Service → Controller, dengan validasi input dan response JSON yang rapi.
 
 ---
@@ -33,8 +33,7 @@ src/
 ├─ repositories/
 │ └─ user.repository.js
 ├─ data/
-│ ├─ data-handler.js
-│ └─ users.json
+│ └─ data.js
 ├─ utils/
 │ ├─ validator.js
 │ └─ response.js
